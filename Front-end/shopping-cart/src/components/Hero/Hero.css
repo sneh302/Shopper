@@ -1,0 +1,134 @@
+.hero {
+  height: 100vh;
+  background: linear-gradient(#f6d5f7, #ffffff);
+  display: flex;
+  font-family: sans-serif;
+}
+
+.hero-left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.1rem;
+  padding-left: 10rem;
+}
+
+.hero-left h2 {
+  color: #2d3250;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.hero-left p {
+  color: #424769;
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.hero-hand-icon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hero-hand-icon img {
+  width: 6rem;
+}
+
+.hero-latest-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 1rem 0;
+  gap: 1rem;
+  background: #2d3250;
+  color: #f6b17a;
+  border-radius: 4rem;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.hero-latest-btn:hover {
+  background: #f6d5f7;
+  color: #2d3250;
+  border: 1px solid #2d3250;
+}
+
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-left {
+    gap: 0.5rem;
+    padding-left: 3rem;
+  }
+
+  .hero-left h2 {
+    font-size: 0.7rem;
+  }
+
+  .hero-left p {
+    font-size: 1.5rem;
+  }
+
+  .hero-hand-icon img {
+    width: 2rem;
+  }
+
+  .hero-hand-icon {
+    gap: 0.4rem;
+  }
+
+  .arrow-img {
+    height: 0.7rem;
+  }
+
+  .hero-latest-btn {
+    width: 9rem;
+    padding: 0.8rem;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+  }
+
+  .hero-right-img {
+    height: 14rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .hero-left {
+    gap: 0.4rem;
+    padding-left: 2rem;
+  }
+  .hero-left p {
+    font-size: 1.3rem;
+  }
+  .hero-hand-icon img {
+    width: 1.5rem;
+  }
+  .hero-hand-icon {
+    gap: 0.3rem;
+  }
+  .hero-latest-btn {
+    width: 8rem;
+    padding: 0.8rem;
+    gap: 0.3rem;
+    margin-top: 0.2rem;
+    font-size: 0.6rem;
+  }
+  .arrow-img {
+    height: 0.7rem;
+  }
+  .hero-right-img {
+    height: 12rem;
+    margin-top: 1rem;
+  }
+}

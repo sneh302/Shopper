@@ -1,0 +1,83 @@
+.shopcatagory-banner {
+  display: block;
+  margin: 1rem auto;
+  width: 80%;
+}
+
+.shopcatagory-indexsort {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10rem;
+}
+
+.shopcatagory-sort {
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+  border-radius: 0.7rem;
+}
+
+.shopcatagory-indexsort p span {
+  font-weight: 600;
+}
+
+.shopcatagory-products {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.7rem 2rem;
+}
+
+.shopcatagory-lodemore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem auto;
+  width: 8rem;
+  border-radius: 3rem;
+  padding: 0.6rem 0.3rem;
+  border: 1px solid #0f1035;
+  background: #e5e1da;
+  color: #0f1035;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .shopcatagory-banner {
+    width: 100%;
+  }
+
+  .shopcatagory-indexsort {
+    margin: 0 1.8rem;
+  }
+
+  .shopcatagory-sort {
+    padding: 0.4rem 0.7rem;
+  }
+
+  .shopcatagory-products {
+    gap: 0.5rem;
+    margin: 0.6rem;
+  }
+
+  .shopcatagory-lodemore {
+    margin: 1.2rem auto;
+    padding: 0.5rem 0.3rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .shopcatagory-indexsort {
+    margin: 0 1.4rem;
+  }
+  .shopcatagory-sort {
+    padding: 0.3rem 0.4rem;
+    width: 5.5rem;
+  }
+  .shopcatagory-products {
+    gap: 0.4rem;
+    margin: 0.3rem;
+  }
+}

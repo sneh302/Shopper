@@ -1,0 +1,40 @@
+.relatedproduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.relatedproduct hr {
+  width: 10rem;
+  height: 0.3rem;
+  border-radius: 0.5rem;
+  background-color: black;
+}
+
+.relatedproduct-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+  gap: 0.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .relatedproduct hr {
+    width: 50%;
+    height: 0.2rem;
+  }
+
+  .relatedproduct-item {
+    margin: 0.5rem 0;
+    gap: 0.5rem;
+    margin-bottom: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .relatedproduct hr {
+    width: 50%;
+    height: 0.15rem;
+  }
+}
